@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  karakteraz:
+    image: karakteraz:latest
+    build: .
+    volumes:
+      - ./log:/var/log/karakteraz
+    environment:
+      - MOZ_HEADLESS=1

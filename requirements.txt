@@ -1,0 +1,5 @@
+durationpy
+pyyaml
+apscheduler
+requests
+selenium

@@ -1,0 +1,20 @@
+karakteraz:
+  target: https://fsweb.no/studentweb/login.jsf?inst=<Institution login page>
+  frequency: 10m # format using <integer>{h,m,s}. E.g., 1h15m30s
+  university: <your affiliation>
+  watch-list: # course code or course name
+    - xxx123
+    - yyy321
+  feide:
+    username: <your feide student number>
+    password: <your feide password>
+  notification:
+    email:
+      to: recipient@email.com
+      from: tramsmitter@email.com
+      provider: <provider>:<port>
+      username: <username for provider>
+      password: <password for provider>
+    telegram:
+      chat-id: <chat_id>
+      token: <bot token>
